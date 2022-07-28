@@ -5,7 +5,7 @@
     android:id="@+id/btn_sndmsg"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#121111"
+    android:background="#292727"
     tools:context=".MainActivity2">
 
     <ScrollView
@@ -179,7 +179,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-black"
                 android:gravity="center|start"
-                android:text="10. Photon Energy"
+                android:text="10. Half life"
                 android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -189,6 +189,7 @@
                 app:layout_constraintVertical_bias="0.0" />
 
             <Button
+                android:id="@+id/btn11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-black"
@@ -201,13 +202,24 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button11"
                 app:layout_constraintVertical_bias="0.0" />
+
             <Button
+                android:id="@+id/btn12"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="12. Relativistic Doppler eff."
-                android:textSize="20sp"
+                android:background="#201522"
                 android:fontFamily="sans-serif-black"
-                android:gravity="center|start"/>
+                android:gravity="center|start"
+                android:text="About us"
+                android:textSize="15sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="10sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button11"
+                app:layout_constraintVertical_bias="0" />
 
         </LinearLayout>
     </ScrollView>

@@ -8,14 +8,13 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MainActivity4"
+        tools:context=".MainActivity13"
         android:padding="10sp">
-
         <TextView
-            android:id="@+id/c1"
+            android:id="@+id/c401"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="   Formula:"
+            android:text=" Formula:"
             android:textColor="#FAF9F9"
             android:textSize="24sp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -25,50 +24,64 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.0" />
         <ImageView
-            android:id="@+id/c2"
+            android:id="@+id/c402"
             android:layout_width="wrap_content"
-            android:layout_height="130sp"
+            android:layout_height="209sp"
             android:background="#050505"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.388"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/c1"
-            app:layout_constraintVertical_bias="0.05"
-            app:srcCompat="@drawable/timedilation" />
+            app:layout_constraintTop_toBottomOf="@+id/c401"
+            app:layout_constraintVertical_bias="0"
+            app:srcCompat="@drawable/relativistic_momentum" />
         <TextView
-            android:id="@+id/c4"
+            android:id="@+id/c403"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="where m is mass, v is velocity and c is speed of light"
+            android:textColor="#F8F6F6"
+            android:textColorHint="#5E5E5E"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/c402"
+            app:layout_constraintVertical_bias="0.0" />
+        <TextView
+            android:id="@+id/c404"
             android:layout_width="wrap_content"
             android:layout_height="39sp"
             android:background="#3F51B5"
             android:fontFamily="sans-serif-black"
             android:gravity="center|left"
-            android:text="   Calculate time dilation  "
+            android:text="   Calculate relativistic momentum "
             android:textColor="#EFEBEB"
-            android:textSize="28sp"
+            android:textSize="22sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.49"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/c2"
+            app:layout_constraintTop_toBottomOf="@+id/c403"
             app:layout_constraintVertical_bias="0.171"/>
         <TextView
-            android:id="@+id/c100"
+            android:id="@+id/c405"
             android:layout_width="35sp"
             android:layout_height="wrap_content"
             android:background="#D1CECE"
-            android:text="t"
-            android:gravity="center"
+            android:text="m"
             android:textSize="24sp"
+            android:gravity="center"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.259"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/c4"
+            app:layout_constraintTop_toBottomOf="@+id/c404"
             app:layout_constraintVertical_bias="0.152" />
 
         <TextView
-            android:id="@+id/c6"
+            android:id="@+id/c406"
             android:layout_width="20sp"
             android:layout_height="34sp"
             android:fontFamily="sans-serif-black"
@@ -79,12 +92,12 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.08"
-            app:layout_constraintStart_toEndOf="@+id/c100"
-            app:layout_constraintTop_toBottomOf="@+id/c4"
+            app:layout_constraintStart_toEndOf="@+id/c405"
+            app:layout_constraintTop_toBottomOf="@+id/c404"
             app:layout_constraintVertical_bias="0.148" />
 
         <EditText
-            android:id="@+id/c7"
+            android:id="@+id/c407"
             android:layout_width="130sp"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -97,11 +110,11 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.3"
-            app:layout_constraintStart_toEndOf="@+id/c6"
-            app:layout_constraintTop_toBottomOf="@+id/c4"
-            app:layout_constraintVertical_bias="0.13" />
+            app:layout_constraintStart_toEndOf="@+id/c406"
+            app:layout_constraintTop_toBottomOf="@+id/c404"
+            app:layout_constraintVertical_bias="0.118" />
         <TextView
-            android:id="@+id/c5"
+            android:id="@+id/c408"
             android:layout_width="35sp"
             android:layout_height="wrap_content"
             android:background="#D1CECE"
@@ -112,10 +125,10 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.259"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/c100"
-            app:layout_constraintVertical_bias="0.092" />
+            app:layout_constraintTop_toBottomOf="@+id/c405"
+            app:layout_constraintVertical_bias="0.08" />
         <TextView
-            android:id="@+id/c101"
+            android:id="@+id/c409"
             android:layout_width="20sp"
             android:layout_height="34sp"
             android:fontFamily="sans-serif-black"
@@ -126,12 +139,12 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.08"
-            app:layout_constraintStart_toEndOf="@+id/c5"
-            app:layout_constraintTop_toBottomOf="@+id/c6"
-            app:layout_constraintVertical_bias="0.083" />
+            app:layout_constraintStart_toEndOf="@+id/c408"
+            app:layout_constraintTop_toBottomOf="@+id/c406"
+            app:layout_constraintVertical_bias="0.08" />
 
         <EditText
-            android:id="@+id/c102"
+            android:id="@+id/c410"
             android:layout_width="130sp"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -144,12 +157,12 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.3"
-            app:layout_constraintStart_toEndOf="@+id/c101"
-            app:layout_constraintTop_toBottomOf="@+id/c7"
-            app:layout_constraintVertical_bias="0.02" />
+            app:layout_constraintStart_toEndOf="@+id/c409"
+            app:layout_constraintTop_toBottomOf="@+id/c407"
+            app:layout_constraintVertical_bias="0.015" />
 
         <TextView
-            android:id="@+id/c8"
+            android:id="@+id/c411"
             android:layout_width="35sp"
             android:layout_height="wrap_content"
             android:background="#DAD4D4"
@@ -160,11 +173,11 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.259"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/c5"
-            app:layout_constraintVertical_bias="0.11" />
+            app:layout_constraintTop_toBottomOf="@+id/c408"
+            app:layout_constraintVertical_bias="0.091" />
 
         <TextView
-            android:id="@+id/c9"
+            android:id="@+id/c412"
             android:layout_width="20dp"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-black"
@@ -175,29 +188,29 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.08"
-            app:layout_constraintStart_toEndOf="@+id/c8"
-            app:layout_constraintTop_toBottomOf="@+id/c101"
+            app:layout_constraintStart_toEndOf="@+id/c411"
+            app:layout_constraintTop_toBottomOf="@+id/c409"
             app:layout_constraintVertical_bias="0.091" />
 
         <ImageView
-            android:id="@+id/c10"
+            android:id="@+id/c413"
             android:layout_width="130sp"
             android:layout_height="wrap_content"
             android:background="#FFFDFD"
             android:foregroundGravity="bottom"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.37"
-            app:layout_constraintStart_toEndOf="@+id/c9"
-            app:layout_constraintTop_toBottomOf="@+id/c102"
-            app:layout_constraintVertical_bias="0.08"
+            app:layout_constraintHorizontal_bias="0.36"
+            app:layout_constraintStart_toEndOf="@+id/c412"
+            app:layout_constraintTop_toBottomOf="@+id/c410"
+            app:layout_constraintVertical_bias="0.057"
             app:srcCompat="@drawable/light_value" />
 
         <TextView
-            android:id="@+id/c11"
+            android:id="@+id/c414"
             android:layout_width="35sp"
             android:layout_height="wrap_content"
-            android:text="t'"
+            android:text="p"
             android:textSize="24sp"
             android:background="#DAD4D4"
             android:gravity="center"
@@ -205,27 +218,26 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.259"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/c8"
-            app:layout_constraintVertical_bias="0.166"/>
+            app:layout_constraintTop_toBottomOf="@+id/c411"
+            app:layout_constraintVertical_bias="0.179"/>
 
         <TextView
-            android:id="@+id/c12"
+            android:id="@+id/c415"
             android:layout_width="30sp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="19sp"
             android:gravity="center|start"
             android:text="="
             android:textColor="#B1AEAE"
             android:textSize="30sp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/c11"
-            app:layout_constraintTop_toBottomOf="@+id/c8"
+            app:layout_constraintStart_toEndOf="@+id/c414"
+            app:layout_constraintTop_toBottomOf="@+id/c412"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintVertical_bias="0.152"
-            app:layout_constraintHorizontal_bias="0.009"/>
+            app:layout_constraintVertical_bias="0.172"
+            app:layout_constraintHorizontal_bias="0.09"/>
 
         <TextView
-            android:id="@+id/c13"
+            android:id="@+id/c416"
             android:layout_width="120sp"
             android:layout_height="wrap_content"
             android:background="#878282"
@@ -237,17 +249,17 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.19"
-            app:layout_constraintStart_toEndOf="@+id/c12"
-            app:layout_constraintTop_toBottomOf="@+id/c10"
+            app:layout_constraintStart_toEndOf="@+id/c415"
+            app:layout_constraintTop_toBottomOf="@+id/c413"
             app:layout_constraintVertical_bias="0.173" />
 
         <Button
-            android:id="@+id/c14"
+            android:id="@+id/c417"
             android:layout_width="130sp"
             android:layout_height="wrap_content"
             android:background="#ED2A2A"
             android:fontFamily="sans-serif-black"
-            android:onClick="dilation"
+            android:onClick="relativistic_momemtum"
             android:text="Submit"
             android:textColor="#F8F2F1"
             android:textSize="20sp"
@@ -256,8 +268,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.451"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/c12"
+            app:layout_constraintTop_toBottomOf="@+id/c415"
             app:layout_constraintVertical_bias="0.94" />
-
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

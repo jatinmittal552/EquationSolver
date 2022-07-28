@@ -58,12 +58,13 @@
             android:background="#D1CECE"
             android:text="l"
             android:textSize="24sp"
+            android:gravity="center"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.259"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/c203"
-            app:layout_constraintVertical_bias="0.152" />
+            app:layout_constraintVertical_bias="0.16" />
 
         <TextView
             android:id="@+id/c205"
@@ -88,7 +89,7 @@
             android:ems="10"
             android:gravity="bottom"
             android:hint="Enter value"
-            android:inputType="textPersonName"
+            android:inputType="numberDecimal"
             android:minHeight="48dp"
             android:textColor="#FBF8F8"
             android:textColorHint="#B5B1B1"
@@ -97,20 +98,21 @@
             app:layout_constraintHorizontal_bias="0.3"
             app:layout_constraintStart_toEndOf="@+id/c205"
             app:layout_constraintTop_toBottomOf="@+id/c203"
-            app:layout_constraintVertical_bias="0.1" />
+            app:layout_constraintVertical_bias="0.14" />
         <TextView
             android:id="@+id/c207"
             android:layout_width="35sp"
             android:layout_height="wrap_content"
             android:background="#D1CECE"
             android:text="v"
+            android:gravity="center"
             android:textSize="24sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.259"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/c204"
-            app:layout_constraintVertical_bias="0.118" />
+            app:layout_constraintVertical_bias="0.1" />
         <TextView
             android:id="@+id/c208"
             android:layout_width="20sp"
@@ -131,11 +133,10 @@
             android:id="@+id/c209"
             android:layout_width="130sp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="07sp"
             android:ems="10"
             android:gravity="bottom"
             android:hint="Enter value"
-            android:inputType="textPersonName"
+            android:inputType="numberDecimal"
             android:minHeight="48dp"
             android:textColor="#FBF8F8"
             android:textColorHint="#B5B1B1"
@@ -144,7 +145,7 @@
             app:layout_constraintHorizontal_bias="0.3"
             app:layout_constraintStart_toEndOf="@+id/c208"
             app:layout_constraintTop_toBottomOf="@+id/c206"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintVertical_bias="0.02" />
 
         <TextView
             android:id="@+id/c210"
@@ -153,6 +154,7 @@
             android:background="#DAD4D4"
             android:text="c"
             android:textSize="24sp"
+            android:gravity="center"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.259"
@@ -174,18 +176,17 @@
             app:layout_constraintHorizontal_bias="0.08"
             app:layout_constraintStart_toEndOf="@+id/c210"
             app:layout_constraintTop_toBottomOf="@+id/c208"
-            app:layout_constraintVertical_bias="0.091" />
+            app:layout_constraintVertical_bias="0.08" />
 
         <ImageView
             android:id="@+id/c212"
             android:layout_width="130sp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="5sp"
             android:background="#FFFDFD"
             android:foregroundGravity="bottom"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.28"
+            app:layout_constraintHorizontal_bias="0.33"
             app:layout_constraintStart_toEndOf="@+id/c211"
             app:layout_constraintTop_toBottomOf="@+id/c209"
             app:layout_constraintVertical_bias="0.057"
@@ -198,6 +199,7 @@
             android:text="l'"
             android:textSize="24sp"
             android:background="#DAD4D4"
+            android:gravity="center"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.259"
@@ -209,7 +211,6 @@
             android:id="@+id/c214"
             android:layout_width="30sp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="19sp"
             android:gravity="center|start"
             android:text="="
             android:textColor="#B1AEAE"
@@ -219,7 +220,7 @@
             app:layout_constraintTop_toBottomOf="@+id/c211"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintVertical_bias="0.172"
-            app:layout_constraintHorizontal_bias="0.000"/>
+            app:layout_constraintHorizontal_bias="0.1"/>
 
         <TextView
             android:id="@+id/c215"
@@ -244,7 +245,7 @@
             android:layout_height="wrap_content"
             android:background="#ED2A2A"
             android:fontFamily="sans-serif-black"
-            android:onClick="lorentz"
+            android:onClick="contraction"
             android:text="Submit"
             android:textColor="#F8F2F1"
             android:textSize="20sp"
